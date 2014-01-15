@@ -1,0 +1,6 @@
+lspci
+lsmod
+lsusb
+ifconfig
+dmesg | tail -n 15
+dd if=/dev/urandom bs=5k count=1 2>/dev/null | hexdump
